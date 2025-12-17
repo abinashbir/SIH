@@ -1,0 +1,106 @@
+/* =========================
+   Navbar Styles (Exact Match)
+========================= */
+nav {
+  background-color: #0a23da; /* EXACT same as visualization background */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffd700; /* gold hover for contrast */
+}
+
+
+/* =========================
+   Visualization Page
+========================= */
+.visualization-container {
+  background-color: #0d1b33; /* dark blue background */
+  min-height: 100vh;
+  padding: 30px;
+}
+
+.visualization-title {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.visualization-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+}
+
+/* Cards */
+.visualization-card {
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  background-color: #1a2a4f; /* dark blue card */
+  color: #ffffff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.visualization-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+}
+
+.visualization-card h3 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+/* Tables */
+.visualization-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  overflow-x: auto;
+}
+
+.visualization-table th {
+  text-align: left;
+  padding: 10px;
+  background-color: #104ed3; /* darker header */
+  color: #ffffff;
+}
+
+.visualization-table td {
+  padding: 10px;
+  color: #e0e0e0;
+}
+
+.visualization-table tr:nth-child(even) {
+  background-color: #1f2e5a;
+}
+
+.visualization-table tr:nth-child(odd) {
+  background-color: #1a2a4f;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .visualization-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+

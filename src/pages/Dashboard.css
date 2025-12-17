@@ -1,0 +1,279 @@
+/* Variables for easy color management */
+:root {
+    --color-primary-dark: #0d1b33;
+    --color-secondary-dark: #142850;
+    --color-accent-blue: #4dabf7;
+    --color-text-light: #ffffff;
+    --color-text-secondary: #c0c0c0;
+}
+
+/* Dashboard Container */
+.dashboard-container {
+    padding: 20px;
+    min-height: 100vh;
+    /* Use variables for cleaner theme management */
+    background: linear-gradient(180deg, #1a2a6c, var(--color-primary-dark));
+    color: var(--color-text-light);
+    transition: margin-left 0.3s ease;
+}
+
+.dashboard-container.sidebar-open {
+    margin-left: 200px; /* matches sidebar width */
+}
+
+/* Header */
+.dashboard-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.dashboard-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.dashboard-subtitle {
+    font-size: 1rem;
+    color: var(--color-text-secondary);
+}
+
+/* Generic Card Styles */
+.card {
+    background: var(--color-secondary-dark);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.3);
+}
+
+/* Card Title */
+.card-title {
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: var(--color-text-light);
+}
+
+/* Filters + Map Section */
+.filters-map-container {
+    display: flex;
+    gap: 20px;
+    margin: 30px 0;
+    align-items: stretch;
+    flex-wrap: wrap; 
+}
+
+/* Filters Panel */
+.filters-container {
+    flex: 1 1 280px; 
+    max-width: 320px;
+    padding: 20px;
+    background: var(--color-primary-dark); /* Darker background for the control panel */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Filter Items */
+.filter-item {
+    flex: 1;
+    min-width: 160px;
+    background: var(--color-secondary-dark);
+    border-radius: 10px;
+    padding: 12px 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+}
+
+.filter-item label {
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: var(--color-text-light);
+    font-weight: 500;
+}
+
+.filter-item select,
+.filter-item input {
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: var(--color-primary-dark);
+    color: var(--color-text-light);
+    font-size: 14px;
+    outline: none;
+    transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+.filter-item select:focus,
+.filter-item input:focus {
+    border-color: var(--color-accent-blue);
+    box-shadow: 0 0 6px rgba(77, 171, 247, 0.5);
+}
+
+/* ADDED: Style for disabled select elements (when cascade locks a filter) */
+.filter-item select:disabled {
+    cursor: not-allowed;
+    background-color: #2a3a5e; /* slightly different dark color */
+    color: #8c9ba5; /* dimmed text */
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Map Card */
+.map-card {
+    flex: 3 1 600px; 
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.map-card .leaflet-container {
+    flex: 1;
+    width: 100%;
+    height: 60vh; 
+    min-height: 300px;
+    border-radius: 12px;
+    border: 1px solid #1f4068;
+}
+
+/* Leaflet Legend */
+.info.legend {
+    background: rgba(20, 40, 80, 0.9);
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 13px;
+    color: #fff;
+    line-height: 18px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+.info.legend h4 {
+    margin: 0 0 6px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.info.legend i {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-right: 6px;
+    border-radius: 3px;
+}
+
+/* Bottom Row (Charts and Alerts) */
+.dashboard-row {
+    display: grid; /* Use grid for consistent layout */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.dashboard-row .card {
+    /* flex: 1 removed as grid handles sizing */
+    min-height: 320px;
+}
+
+/* Chart Styles (LineChart and BarChart containers) */
+.trend-card,
+.bar-card {
+    min-height: 320px;
+}
+
+/* ADDED: Custom Recharts tooltip styling for better contrast */
+.recharts-default-tooltip {
+    background-color: var(--color-primary-dark) !important;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+    border-radius: 8px !important;
+    padding: 10px !important;
+    opacity: 0.95;
+}
+.recharts-tooltip-label {
+    color: var(--color-accent-blue) !important;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Enhanced Hover */
+.trend-card:hover,
+.bar-card:hover,
+.alert-card:hover {
+    transform: translateY(-6px) scale(1.01); /* Reduced scale slightly */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.45);
+    background: #1f3a72;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+}
+
+/* Apply Filters Button */
+.submit-btn {
+    align-self: stretch; /* Stretch button to full filter container width */
+    margin-top: 10px;
+    padding: 10px 18px;
+    background: linear-gradient(135deg, var(--color-accent-blue), #1e90ff); /* nice blue gradient */
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    text-align: center;
+}
+
+.submit-btn:hover {
+    background: linear-gradient(135deg, #1e90ff, #0066cc);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.submit-btn:active {
+    transform: scale(0.98); /* Less aggressive scale down */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+}
+
+/* ADDED: Footer Styling */
+.dashboard-footer {
+    padding: 15px 0;
+    text-align: center;
+    font-size: 0.85rem;
+    color: var(--color-text-secondary);
+    margin-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .filters-map-container {
+        flex-direction: column;
+    }
+    .filters-container {
+        max-width: 100%;
+    }
+    .map-card .leaflet-container {
+        height: 50vh; 
+    }
+    /* Grid switches to single column on smaller screens */
+    .dashboard-row {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .map-card .leaflet-container {
+        height: 40vh; 
+    }
+    .dashboard-title {
+        font-size: 1.75rem;
+    }
+}

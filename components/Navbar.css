@@ -1,0 +1,87 @@
+/* src/styles/Navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+  background: linear-gradient(90deg, #1e3a8a, #2563eb);
+  border-bottom: 1px solid #0f172a;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  transition: all 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  width: calc(100% - 60px); /* Default width when sidebar is closed */
+  left: 60px; /* Default left position when sidebar is closed */
+}
+
+/* This class is added when the sidebar is open */
+.navbar.open {
+  width: calc(100% - 200px);
+  left: 200px;
+}
+
+.navbar-title {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-shrink: 0;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 20px;
+  padding: 4px 10px;
+  max-width: 180px;
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 14px;
+  background: transparent;
+  min-width: 80px;
+}
+
+.search-box .search-icon {
+  color: #2563eb;
+  cursor: pointer;
+}
+
+.auth-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.auth-link:hover {
+  color: #c9d6ea;
+}
+
+.logout-btn {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 6px 16px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.logout-btn:hover {
+  background-color: white;
+  color: #2563eb;
+}

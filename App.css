@@ -1,0 +1,151 @@
+/* --- Global app layout --- */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* --- Page content (Dashboard, Upload, Visualization) --- */
+.page-content {
+  flex: 1;
+  padding: 20px;
+  margin-top: 60px; /* space for navbar */
+  margin-left: 200px; /* default sidebar width */
+  transition: margin-left 0.3s;
+  background: linear-gradient(135deg, #1e3a8a, #2563eb); /* ✅ dashboard background */
+  color: white;
+  min-height: calc(100vh - 60px - 40px); /* viewport - navbar - footer */
+}
+
+/* Sidebar collapsed */
+.page-content.sidebar-closed {
+  margin-left: 60px;
+}
+
+/* --- Footer --- */
+footer {
+  padding: 12px;
+  text-align: center;
+  background: #0f172a;
+  color: white;
+  margin-top: auto; /* ✅ sticks to bottom */
+}
+
+/* --- Auth container shared for login/signup --- */
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f5f6fa; /* ✅ different background */
+  padding: 1rem;
+}
+
+/* --- Card box --- */
+.auth-card {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 350px;
+}
+
+/* --- Headings --- */
+.auth-card h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* --- Input fields --- */
+.auth-card input {
+  width: 100%;
+  padding: 10px 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* --- Primary button (Login) --- */
+.auth-card button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background: #007bff;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.auth-card button:hover {
+  background: #0056b3;
+}
+
+/* --- Secondary button (e.g. Signup) --- */
+.auth-card .btn-secondary {
+  background: #28a745;
+}
+
+.auth-card .btn-secondary:hover {
+  background: #1e7e34;
+}
+
+/* --- Text + Links --- */
+.auth-card p {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+.auth-card a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.auth-card a:hover {
+  text-decoration: underline;
+}
+
+/* --- Login form extra style --- */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 300px;
+  padding: 20px;
+  margin: auto;
+  margin-top: 10%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  background: #fff;
+}
+
+.login-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.login-form button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background: #1d4ed8;
+}
+
+

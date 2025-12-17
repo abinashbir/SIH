@@ -1,0 +1,402 @@
+[
+  {
+    "question": "What are Heavy Metal Pollution Indices (HMPI)?",
+    "answer": "HMPI are numerical indices used to assess the contamination levels of heavy metals in water sources."
+  },
+  {
+    "question": "Why is monitoring heavy metals in groundwater important?",
+    "answer": "Because heavy metals can pose serious health and environmental risks, even at low concentrations."
+  },
+  {
+    "question": "What health risks are associated with heavy metal contamination?",
+    "answer": "Health risks include neurological disorders, kidney damage, and increased cancer risk."
+  },
+  {
+    "question": "How does heavy metal pollution affect the environment?",
+    "answer": "It contaminates soil, affects aquatic life, and can disrupt ecosystems."
+  },
+  {
+    "question": "Which heavy metals are commonly found in groundwater?",
+    "answer": "Common heavy metals include lead, arsenic, cadmium, chromium, and mercury."
+  },
+  {
+    "question": "What are acceptable limits for heavy metals in drinking water?",
+    "answer": "Limits are defined by agencies such as WHO and EPA; for example, lead should be below 0.01 mg/L."
+  },
+  {
+    "question": "Why is manual HMPI calculation challenging?",
+    "answer": "Manual computation is time-consuming, error-prone, and requires handling complex formulas."
+  },
+  {
+    "question": "What is the purpose of the HMPI application?",
+    "answer": "The application automates HMPI calculations, reducing errors and saving time."
+  },
+  {
+    "question": "Who can benefit from this tool?",
+    "answer": "Researchers, policymakers, environmental agencies, and public health officials."
+  },
+  {
+    "question": "How does the application support policymakers and researchers?",
+    "answer": "By providing reliable data for decision-making and research analysis."
+  },
+  {
+    "question": "What are Heavy Metal Pollution Indices (HMPI)?",
+    "answer": "HMPI are numerical indices used to assess the contamination levels of heavy metals in water sources."
+  },
+  {
+    "question": "Why is monitoring heavy metals in groundwater important?",
+    "answer": "Because heavy metals can pose serious health and environmental risks, even at low concentrations."
+  },
+  {
+    "question": "What health risks are associated with heavy metal contamination?",
+    "answer": "Health risks include neurological disorders, kidney damage, and increased cancer risk."
+  },
+  {
+    "question": "How does heavy metal pollution affect the environment?",
+    "answer": "It contaminates soil, affects aquatic life, and can disrupt ecosystems."
+  },
+  {
+    "question": "Which heavy metals are commonly found in groundwater?",
+    "answer": "Common heavy metals include lead, arsenic, cadmium, chromium, and mercury."
+  },
+  {
+    "question": "What are acceptable limits for heavy metals in drinking water?",
+    "answer": "Limits are defined by agencies such as WHO and EPA; for example, lead should be below 0.01 mg/L."
+  },
+  {
+    "question": "Why is manual HMPI calculation challenging?",
+    "answer": "Manual computation is time-consuming, error-prone, and requires handling complex formulas."
+  },
+  {
+    "question": "What is the purpose of the HMPI application?",
+    "answer": "The application automates HMPI calculations, reducing errors and saving time."
+  },
+  {
+    "question": "Who can benefit from this tool?",
+    "answer": "Researchers, policymakers, environmental agencies, and public health officials."
+  },
+  {
+    "question": "How does the application support policymakers and researchers?",
+    "answer": "By providing reliable data for decision-making and research analysis."
+  },
+  {
+    "question": "What are Heavy Metal Pollution Indices (HMPI)?",
+    "answer": "HMPI are numerical indices used to assess the contamination levels of heavy metals in water sources."
+  },
+  {
+    "question": "Why is monitoring heavy metals in groundwater important?",
+    "answer": "Because heavy metals can pose serious health and environmental risks, even at low concentrations."
+  },
+  {
+    "question": "What health risks are associated with heavy metal contamination?",
+    "answer": "Health risks include neurological disorders, kidney damage, and increased cancer risk."
+  },
+  {
+    "question": "How does heavy metal pollution affect the environment?",
+    "answer": "It contaminates soil, affects aquatic life, and can disrupt ecosystems."
+  },
+  {
+    "question": "Which heavy metals are commonly found in groundwater?",
+    "answer": "Common heavy metals include lead, arsenic, cadmium, chromium, and mercury."
+  },
+  {
+    "question": "What are acceptable limits for heavy metals in drinking water?",
+    "answer": "Limits are defined by agencies such as WHO and EPA; for example, lead should be below 0.01 mg/L."
+  },
+  {
+    "question": "Why is manual HMPI calculation challenging?",
+    "answer": "Manual computation is time-consuming, error-prone, and requires handling complex formulas."
+  },
+  {
+    "question": "What is the purpose of the HMPI application?",
+    "answer": "The application automates HMPI calculations, reducing errors and saving time."
+  },
+  {
+    "question": "Who can benefit from this tool?",
+    "answer": "Researchers, policymakers, environmental agencies, and public health officials."
+  },
+  {
+    "question": "How does the application support policymakers and researchers?",
+    "answer": "By providing reliable data for decision-making and research analysis."
+  },
+  {
+    "question": "What are Heavy Metal Pollution Indices (HMPI)?",
+    "answer": "HMPI are numerical indices used to assess the contamination levels of heavy metals in water sources."
+  },
+  {
+    "question": "Why is monitoring heavy metals in groundwater important?",
+    "answer": "Because heavy metals can pose serious health and environmental risks, even at low concentrations."
+  },
+  {
+    "question": "What health risks are associated with heavy metal contamination?",
+    "answer": "Health risks include neurological disorders, kidney damage, and increased cancer risk."
+  },
+  {
+    "question": "How does heavy metal pollution affect the environment?",
+    "answer": "It contaminates soil, affects aquatic life, and can disrupt ecosystems."
+  },
+  {
+    "question": "Which heavy metals are commonly found in groundwater?",
+    "answer": "Common heavy metals include lead, arsenic, cadmium, chromium, and mercury."
+  },
+  {
+    "question": "What are acceptable limits for heavy metals in drinking water?",
+    "answer": "Limits are defined by agencies such as WHO and EPA; for example, lead should be below 0.01 mg/L."
+  },
+  {
+    "question": "Why is manual HMPI calculation challenging?",
+    "answer": "Manual computation is time-consuming, error-prone, and requires handling complex formulas."
+  },
+  {
+    "question": "What is the purpose of the HMPI application?",
+    "answer": "The application automates HMPI calculations, reducing errors and saving time."
+  },
+  {
+    "question": "Who can benefit from this tool?",
+    "answer": "Researchers, policymakers, environmental agencies, and public health officials."
+  },
+  {
+    "question": "How does the application support policymakers and researchers?",
+    "answer": "By providing reliable data for decision-making and research analysis."
+  },
+  {
+    "question": "What are Heavy Metal Pollution Indices (HMPI)?",
+    "answer": "HMPI are numerical indices used to assess the contamination levels of heavy metals in water sources."
+  },
+  {
+    "question": "Why is monitoring heavy metals in groundwater important?",
+    "answer": "Because heavy metals can pose serious health and environmental risks, even at low concentrations."
+  },
+  {
+    "question": "What health risks are associated with heavy metal contamination?",
+    "answer": "Health risks include neurological disorders, kidney damage, and increased cancer risk."
+  },
+  {
+    "question": "How does heavy metal pollution affect the environment?",
+    "answer": "It contaminates soil, affects aquatic life, and can disrupt ecosystems."
+  },
+  {
+    "question": "Which heavy metals are commonly found in groundwater?",
+    "answer": "Common heavy metals include lead, arsenic, cadmium, chromium, and mercury."
+  },
+  {
+    "question": "What are acceptable limits for heavy metals in drinking water?",
+    "answer": "Limits are defined by agencies such as WHO and EPA; for example, lead should be below 0.01 mg/L."
+  },
+  {
+    "question": "Why is manual HMPI calculation challenging?",
+    "answer": "Manual computation is time-consuming, error-prone, and requires handling complex formulas."
+  },
+  {
+    "question": "What is the purpose of the HMPI application?",
+    "answer": "The application automates HMPI calculations, reducing errors and saving time."
+  },
+  {
+    "question": "Who can benefit from this tool?",
+    "answer": "Researchers, policymakers, environmental agencies, and public health officials."
+  },
+  {
+    "question": "How does the application support policymakers and researchers?",
+    "answer": "By providing reliable data for decision-making and research analysis."
+  },
+  {
+    "question": "What are Heavy Metal Pollution Indices (HMPI)?",
+    "answer": "HMPI are numerical indices used to assess the contamination levels of heavy metals in water sources."
+  },
+  {
+    "question": "Why is monitoring heavy metals in groundwater important?",
+    "answer": "Because heavy metals can pose serious health and environmental risks, even at low concentrations."
+  },
+  {
+    "question": "What health risks are associated with heavy metal contamination?",
+    "answer": "Health risks include neurological disorders, kidney damage, and increased cancer risk."
+  },
+  {
+    "question": "How does heavy metal pollution affect the environment?",
+    "answer": "It contaminates soil, affects aquatic life, and can disrupt ecosystems."
+  },
+  {
+    "question": "Which heavy metals are commonly found in groundwater?",
+    "answer": "Common heavy metals include lead, arsenic, cadmium, chromium, and mercury."
+  },
+  {
+    "question": "What are acceptable limits for heavy metals in drinking water?",
+    "answer": "Limits are defined by agencies such as WHO and EPA; for example, lead should be below 0.01 mg/L."
+  },
+  {
+    "question": "Why is manual HMPI calculation challenging?",
+    "answer": "Manual computation is time-consuming, error-prone, and requires handling complex formulas."
+  },
+  {
+    "question": "What is the purpose of the HMPI application?",
+    "answer": "The application automates HMPI calculations, reducing errors and saving time."
+  },
+  {
+    "question": "Who can benefit from this tool?",
+    "answer": "Researchers, policymakers, environmental agencies, and public health officials."
+  },
+  {
+    "question": "How does the application support policymakers and researchers?",
+    "answer": "By providing reliable data for decision-making and research analysis."
+  },
+  {
+    "question": "What are Heavy Metal Pollution Indices (HMPI)?",
+    "answer": "HMPI are numerical indices used to assess the contamination levels of heavy metals in water sources."
+  },
+  {
+    "question": "Why is monitoring heavy metals in groundwater important?",
+    "answer": "Because heavy metals can pose serious health and environmental risks, even at low concentrations."
+  },
+  {
+    "question": "What health risks are associated with heavy metal contamination?",
+    "answer": "Health risks include neurological disorders, kidney damage, and increased cancer risk."
+  },
+  {
+    "question": "How does heavy metal pollution affect the environment?",
+    "answer": "It contaminates soil, affects aquatic life, and can disrupt ecosystems."
+  },
+  {
+    "question": "Which heavy metals are commonly found in groundwater?",
+    "answer": "Common heavy metals include lead, arsenic, cadmium, chromium, and mercury."
+  },
+  {
+    "question": "What are acceptable limits for heavy metals in drinking water?",
+    "answer": "Limits are defined by agencies such as WHO and EPA; for example, lead should be below 0.01 mg/L."
+  },
+  {
+    "question": "Why is manual HMPI calculation challenging?",
+    "answer": "Manual computation is time-consuming, error-prone, and requires handling complex formulas."
+  },
+  {
+    "question": "What is the purpose of the HMPI application?",
+    "answer": "The application automates HMPI calculations, reducing errors and saving time."
+  },
+  {
+    "question": "Who can benefit from this tool?",
+    "answer": "Researchers, policymakers, environmental agencies, and public health officials."
+  },
+  {
+    "question": "How does the application support policymakers and researchers?",
+    "answer": "By providing reliable data for decision-making and research analysis."
+  },
+  {
+    "question": "What are Heavy Metal Pollution Indices (HMPI)?",
+    "answer": "HMPI are numerical indices used to assess the contamination levels of heavy metals in water sources."
+  },
+  {
+    "question": "Why is monitoring heavy metals in groundwater important?",
+    "answer": "Because heavy metals can pose serious health and environmental risks, even at low concentrations."
+  },
+  {
+    "question": "What health risks are associated with heavy metal contamination?",
+    "answer": "Health risks include neurological disorders, kidney damage, and increased cancer risk."
+  },
+  {
+    "question": "How does heavy metal pollution affect the environment?",
+    "answer": "It contaminates soil, affects aquatic life, and can disrupt ecosystems."
+  },
+  {
+    "question": "Which heavy metals are commonly found in groundwater?",
+    "answer": "Common heavy metals include lead, arsenic, cadmium, chromium, and mercury."
+  },
+  {
+    "question": "What are acceptable limits for heavy metals in drinking water?",
+    "answer": "Limits are defined by agencies such as WHO and EPA; for example, lead should be below 0.01 mg/L."
+  },
+  {
+    "question": "Why is manual HMPI calculation challenging?",
+    "answer": "Manual computation is time-consuming, error-prone, and requires handling complex formulas."
+  },
+  {
+    "question": "What is the purpose of the HMPI application?",
+    "answer": "The application automates HMPI calculations, reducing errors and saving time."
+  },
+  {
+    "question": "Who can benefit from this tool?",
+    "answer": "Researchers, policymakers, environmental agencies, and public health officials."
+  },
+  {
+    "question": "How does the application support policymakers and researchers?",
+    "answer": "By providing reliable data for decision-making and research analysis."
+  },
+  {
+    "question": "What are Heavy Metal Pollution Indices (HMPI)?",
+    "answer": "HMPI are numerical indices used to assess the contamination levels of heavy metals in water sources."
+  },
+  {
+    "question": "Why is monitoring heavy metals in groundwater important?",
+    "answer": "Because heavy metals can pose serious health and environmental risks, even at low concentrations."
+  },
+  {
+    "question": "What health risks are associated with heavy metal contamination?",
+    "answer": "Health risks include neurological disorders, kidney damage, and increased cancer risk."
+  },
+  {
+    "question": "How does heavy metal pollution affect the environment?",
+    "answer": "It contaminates soil, affects aquatic life, and can disrupt ecosystems."
+  },
+  {
+    "question": "Which heavy metals are commonly found in groundwater?",
+    "answer": "Common heavy metals include lead, arsenic, cadmium, chromium, and mercury."
+  },
+  {
+    "question": "What are acceptable limits for heavy metals in drinking water?",
+    "answer": "Limits are defined by agencies such as WHO and EPA; for example, lead should be below 0.01 mg/L."
+  },
+  {
+    "question": "Why is manual HMPI calculation challenging?",
+    "answer": "Manual computation is time-consuming, error-prone, and requires handling complex formulas."
+  },
+  {
+    "question": "What is the purpose of the HMPI application?",
+    "answer": "The application automates HMPI calculations, reducing errors and saving time."
+  },
+  {
+    "question": "Who can benefit from this tool?",
+    "answer": "Researchers, policymakers, environmental agencies, and public health officials."
+  },
+  {
+    "question": "How does the application support policymakers and researchers?",
+    "answer": "By providing reliable data for decision-making and research analysis."
+  },
+  {
+    "question": "What are Heavy Metal Pollution Indices (HMPI)?",
+    "answer": "HMPI are numerical indices used to assess the contamination levels of heavy metals in water sources."
+  },
+  {
+    "question": "Why is monitoring heavy metals in groundwater important?",
+    "answer": "Because heavy metals can pose serious health and environmental risks, even at low concentrations."
+  },
+  {
+    "question": "What health risks are associated with heavy metal contamination?",
+    "answer": "Health risks include neurological disorders, kidney damage, and increased cancer risk."
+  },
+  {
+    "question": "How does heavy metal pollution affect the environment?",
+    "answer": "It contaminates soil, affects aquatic life, and can disrupt ecosystems."
+  },
+  {
+    "question": "Which heavy metals are commonly found in groundwater?",
+    "answer": "Common heavy metals include lead, arsenic, cadmium, chromium, and mercury."
+  },
+  {
+    "question": "What are acceptable limits for heavy metals in drinking water?",
+    "answer": "Limits are defined by agencies such as WHO and EPA; for example, lead should be below 0.01 mg/L."
+  },
+  {
+    "question": "Why is manual HMPI calculation challenging?",
+    "answer": "Manual computation is time-consuming, error-prone, and requires handling complex formulas."
+  },
+  {
+    "question": "What is the purpose of the HMPI application?",
+    "answer": "The application automates HMPI calculations, reducing errors and saving time."
+  },
+  {
+    "question": "Who can benefit from this tool?",
+    "answer": "Researchers, policymakers, environmental agencies, and public health officials."
+  },
+  {
+    "question": "How does the application support policymakers and researchers?",
+    "answer": "By providing reliable data for decision-making and research analysis."
+  }
+]
