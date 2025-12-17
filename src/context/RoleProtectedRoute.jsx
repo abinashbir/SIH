@@ -6,9 +6,9 @@ import { useAuth } from "./AuthContext";
 const ProtectedRoute = ({ children }) => {
   const { user } = useAuth();
 
-  // If user is not logged in, redirect to login
+  // If user is not logged in, redirect to dashboard
   if (!user) {
-    return <Navigate to="/login" replace />;
+    return <Navigate to="/dashboard" replace />;
   }
 
   // If logged in, allow access

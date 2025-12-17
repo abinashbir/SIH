@@ -8,7 +8,6 @@ import {
 
 // Pages
 import Dashboard from "./pages/Dashboard";
-import Login from "./pages/Login";
 import Upload from "./pages/Upload";
 import Search from "./pages/Search";
 import Visualization from "./pages/Visualization";
@@ -86,15 +85,6 @@ function App() {
     <AuthProvider>
       <Router>
         <Routes>
-          {/* Public Routes */}
-          <Route
-            path="/login"
-            element={
-              <RedirectIfLoggedIn>
-                <Login />
-              </RedirectIfLoggedIn>
-            }
-          />
           {/* Protected Routes with Layout */}
           <Route
             path="/*"
