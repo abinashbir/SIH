@@ -22,7 +22,6 @@ import ChatWindow from "./components/ChatWindow";
 
 // Context
 import { AuthProvider, useAuth } from "./context/AuthContext";
-import ProtectedRoute from "./context/ProtectedRoute";
 
 // Layout wrapper for authenticated routes
 const AppLayout = ({ children, sidebarOpen, setSidebarOpen, isChatOpen, toggleChat }) => {
@@ -96,54 +95,12 @@ function App() {
                 toggleChat={toggleChat}
               >
                 <Routes>
-                  <Route
-                    path="/"
-                    element={
-                      <ProtectedRoute>
-                        <Dashboard />
-                      </ProtectedRoute>
-                    }
-                  />
-                  <Route
-                    path="/dashboard"
-                    element={
-                      <ProtectedRoute>
-                        <Dashboard />
-                      </ProtectedRoute>
-                    }
-                  />
-                  <Route
-                    path="/upload"
-                    element={
-                      <ProtectedRoute>
-                        <Upload />
-                      </ProtectedRoute>
-                    }
-                  />
-                  <Route
-                    path="/search"
-                    element={
-                      <ProtectedRoute>
-                        <Search />
-                      </ProtectedRoute>
-                    }
-                  />
-                  <Route
-                    path="/visualization"
-                    element={
-                      <ProtectedRoute>
-                        <Visualization />
-                      </ProtectedRoute>
-                    }
-                  />
-                  <Route
-                    path="/reports"
-                    element={
-                      <ProtectedRoute allowedRoles={["admin"]}>
-                        <Reports />
-                      </ProtectedRoute>
-                    }
-                  />
+                  <Route path="/" element={<Dashboard />} />
+                  <Route path="/dashboard" element={<Dashboard />} />
+                  <Route path="/upload" element={<Upload />} />
+                  <Route path="/search" element={<Search />} />
+                  <Route path="/visualization" element={<Visualization />} />
+                  <Route path="/reports" element={<Reports />} />
                   <Route path="*" element={<Navigate to="/" replace />} />
                 </Routes>
               </AppLayout>
